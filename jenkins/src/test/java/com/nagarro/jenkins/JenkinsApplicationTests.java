@@ -13,4 +13,8 @@ class JenkinsApplicationTests {
 		assertThat(true).isTrue();
 	}
 
+	@Test
+	void demoTest() {
+		assertThat("Bharath").isEqualTo("Bharath");
+	}
 }
