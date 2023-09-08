@@ -1,10 +1,10 @@
-package com.bharathkalyans.relearn;
+package com.nagarro.jenkins;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RelearnApplicationTests {
+class JenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
