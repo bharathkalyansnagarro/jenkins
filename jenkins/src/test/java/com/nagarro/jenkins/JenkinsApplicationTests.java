@@ -17,4 +17,10 @@ class JenkinsApplicationTests {
 	void demoTest() {
 		assertThat("Bharath").isEqualTo("Bharath");
 	}
+
+	@Test
+	void nagarroTest() {
+		assertThat("Nagarro")
+				.startsWith("N").endsWith("o");
+	}
 }
